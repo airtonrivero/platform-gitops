@@ -1,19 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-	name: catalogo-api
-	title: Catálogo API
-	description: Serviço API do Catálogo (Backstage Component)
-	annotations:
-		backstage.io/managed-by-location: https://github.com/your-org/catalogo/blob/main/apps/api/catalogo-info.yaml
-	tags:
-		- api
-		- backend
+  name: catalog-api
+  title: "Catálogo API"
+  description: "Serviço API do Catálogo (Backstage Component)"
+  annotations:
+    backstage.io/managed-by-location: https://github.com/your-org/catalogo/blob/main/apps/api/catalogo-info.yaml
+  tags:
+    - api
+    - backend
 
 spec:
-	type: service
-	lifecycle: experimental
-	owner: airtonrivero
-	system: catalogo
-	providesApis: []
-	consumesApis: []
+  type: service
+  lifecycle: experimental
+  owner: airtonrivero
+  system: catalogo
+  providesApis: []
+  consumesApis: []
