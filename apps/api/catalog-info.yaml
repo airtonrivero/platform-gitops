@@ -13,7 +13,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: airtonrivero
-  system: catalogo
+  owner: system:default/catalogo
+  system: catalog
   providesApis: []
   consumesApis: []
